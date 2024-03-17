@@ -1,0 +1,157 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "gout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "gout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "gout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "bout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "bout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "bout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "bout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "col[9]",
+					"strict" : false
+				},
+				{
+					"name" : "col[8]",
+					"strict" : false
+				},
+				{
+					"name" : "col[7]",
+					"strict" : false
+				},
+				{
+					"name" : "col[6]",
+					"strict" : false
+				},
+				{
+					"name" : "col[5]",
+					"strict" : false
+				},
+				{
+					"name" : "col[4]",
+					"strict" : false
+				},
+				{
+					"name" : "col[3]",
+					"strict" : false
+				},
+				{
+					"name" : "col[2]",
+					"strict" : false
+				},
+				{
+					"name" : "col[1]",
+					"strict" : false
+				},
+				{
+					"name" : "col[0]",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "row[9]",
+					"strict" : false
+				},
+				{
+					"name" : "row[8]",
+					"strict" : false
+				},
+				{
+					"name" : "row[7]",
+					"strict" : false
+				},
+				{
+					"name" : "row[6]",
+					"strict" : false
+				},
+				{
+					"name" : "row[5]",
+					"strict" : false
+				},
+				{
+					"name" : "row[4]",
+					"strict" : false
+				},
+				{
+					"name" : "row[3]",
+					"strict" : false
+				},
+				{
+					"name" : "row[2]",
+					"strict" : false
+				},
+				{
+					"name" : "row[1]",
+					"strict" : false
+				},
+				{
+					"name" : "row[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_60hz",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "direction[1]",
+					"strict" : false
+				},
+				{
+					"name" : "direction[0]",
+					"strict" : false
+				},
+				{
+					"name" : "stop",
+					"strict" : false
+				},
+				{
+					"name" : "clk_108mhz",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

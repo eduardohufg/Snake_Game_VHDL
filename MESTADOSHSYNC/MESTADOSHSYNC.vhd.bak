@@ -1,0 +1,94 @@
+--Circuito: Maquina de estados semaforo
+--Autor: Eduardo Chavez Martin A01799595
+--Curso: TE2002B
+
+--Declaracion de librerias
+library ieee;
+use ieee.std_logic_1164.all;
+
+--Entidad del Circuito
+entity MESTADOSHSYNC is
+   --	entradas de control, tiempos y salidas
+	port ( RST, CLK, START: in std_logic;
+			 T0, T1, T2, T3: in std_logic_vector (4 downto 0);
+			 R,G,B  :  out std_logic_vector(3 downto 0);
+			 CUENTA    :  in std_logic_vector(9 downto 0);
+			 HSYNC: OUT STD_logic);
+end MESTADOSHSYNC; 
+
+ARCHITECTURE ARC OF MESTADOSHSYNC IS
+
+	type estados is (IDLE, S1, S2, S3, S4);
+	signal EDO, EDO_F : estados;
+	
+	process(EDO, cuenta, START, T0, T1, T2, T3, T4, T5)
+			begin
+				case EDO is 
+					when IDLE => if START = '1' then 
+										 EDO_F <= S1;
+									 else 
+										 EDO_F <= IDLE;
+									 end if;
+					
+					when  S1  => if cuenta = T0 then 
+										EDO_F <= S2;
+								    else 
+										EDO_F <= S1;
+								    end if;
+									 
+					when  S2  => if cuenta = T1 then 
+										EDO_F <= S3;
+								    else 
+										EDO_F <= S2;
+								    end if;
+									 
+					when  S3  => if cuenta = T2 then 
+										EDO_F <= S4;
+								    else 
+										EDO_F <= S3;
+								    end if;
+									 
+				   when  S4  => if cuenta = T3 then 
+										EDO_F <= IDLE;
+								    else 
+										EDO_F <= S4;
+								    end if;
+									
+				end case;
+			end process;
+			
+			salidas: process()
+			begin
+				case EDO is 
+					when S1 => 		HSYNC<= '1'
+										R <= "0000";
+										G <= "0000";
+										B <= "0000";
+									
+									
+					when S2 =>     HSYNC<= '1'
+										R <= "1111";
+										G <= "0000";
+										B <= "0000";
+									
+									
+					when S3 => 		HSYNC<= '1'
+										R <= "0000";
+										G <= "0000";
+										B <= "0000";
+									
+					when S4 =>     HSYNC<= '0'
+										R <= "0000";
+										G <= "0000";
+										B <= "0000";
+										
+					when IDLE =>   HSYNC<= '0'
+										R <= "0000";
+										G <= "0000";
+										B <= "0000";
+
+				end case;
+			end process;
+	 
+END ARC;
+	 

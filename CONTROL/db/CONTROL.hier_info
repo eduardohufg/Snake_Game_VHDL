@@ -1,0 +1,24 @@
+|CONTROL
+clk_60hz => old_button[0].CLK
+clk_60hz => old_button[1].CLK
+clk_60hz => old_button[2].CLK
+clk_60hz => old_button[3].CLK
+clk_60hz => old_button[4].CLK
+clk_60hz => stop_next.CLK
+clk_60hz => direction_next[0].CLK
+clk_60hz => direction_next[1].CLK
+button[0] => process_0.IN1
+button[0] => old_button[0].DATAIN
+button[1] => process_0.IN1
+button[1] => old_button[1].DATAIN
+button[2] => process_0.IN1
+button[2] => old_button[2].DATAIN
+button[3] => process_0.IN1
+button[3] => old_button[3].DATAIN
+button[4] => process_0.IN1
+button[4] => old_button[4].DATAIN
+stop << stop_next.DB_MAX_OUTPUT_PORT_TYPE
+direction[0] << direction_next[0].DB_MAX_OUTPUT_PORT_TYPE
+direction[1] << direction_next[1].DB_MAX_OUTPUT_PORT_TYPE
+
+

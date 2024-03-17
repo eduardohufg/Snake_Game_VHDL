@@ -1,0 +1,39 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL; -- Para el uso de unsigned
+
+entity CONTADOR20BITS is
+    Port ( clk : in STD_LOGIC;
+           reset : in STD_LOGIC;
+           enable : in STD_LOGIC;
+           overflow : out STD_LOGIC;
+           count : out STD_LOGIC_VECTOR(19 downto 0));
+end CONTADOR20BITS;
+
+architecture Behavioral of CONTADOR20BITS is
+
+    signal tmp_count : unsigned(19 downto 0) := (others => '0'); -- Contador interno
+
+begin
+
+    process(clk, reset)
+    begin
+        if reset = '1' then
+            tmp_count <= (others => '0'); -- Resetea el contador a 0
+            overflow <= '0'; -- Resetea el desbordamiento
+        elsif rising_edge(clk) then
+            if enable = '1' then
+                if tmp_count = (2**20 - 1) then
+                    tmp_count <= (others => '0'); -- Resetea el contador
+                    overflow <= '1'; -- Indica desbordamiento
+                else
+                    tmp_count <= tmp_count + 1;
+                    overflow <= '0'; -- No hay desbordamiento
+                end if;
+            end if;
+        end if;
+    end process;
+
+    count <= std_logic_vector(tmp_count); -- Asigna el valor del contador a la salida
+
+end Behavioral;

@@ -1,0 +1,137 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -3.267
+TNS   : -35.916
+
+Type  : Slow 1200mV 85C Model Setup 'CONT800:I1|ov'
+Slack : -1.335
+TNS   : -8.079
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -0.827
+TNS   : -0.827
+
+Type  : Slow 1200mV 85C Model Hold 'DIVFREQ2:I0|FFD:I0|q'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CONT800:I1|ov'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.729
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CONT800:I1|ov'
+Slack : -2.103
+TNS   : -20.218
+
+Type  : Slow 1200mV 85C Model Removal 'CONT800:I1|ov'
+Slack : 1.967
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -4.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.487
+TNS   : -31.227
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CONT800:I1|ov'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 0C Model Setup 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -3.047
+TNS   : -32.396
+
+Type  : Slow 1200mV 0C Model Setup 'CONT800:I1|ov'
+Slack : -1.147
+TNS   : -6.949
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -0.669
+TNS   : -0.669
+
+Type  : Slow 1200mV 0C Model Hold 'DIVFREQ2:I0|FFD:I0|q'
+Slack : 0.324
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CONT800:I1|ov'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CONT800:I1|ov'
+Slack : -1.893
+TNS   : -18.094
+
+Type  : Slow 1200mV 0C Model Removal 'CONT800:I1|ov'
+Slack : 1.797
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -4.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.487
+TNS   : -31.227
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CONT800:I1|ov'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Fast 1200mV 0C Model Setup 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -0.687
+TNS   : -3.708
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -0.105
+TNS   : -0.105
+
+Type  : Fast 1200mV 0C Model Setup 'CONT800:I1|ov'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CONT800:I1|ov'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DIVFREQ2:I0|FFD:I0|q'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CONT800:I1|ov'
+Slack : -0.214
+TNS   : -1.868
+
+Type  : Fast 1200mV 0C Model Removal 'CONT800:I1|ov'
+Slack : 0.805
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -4.052
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.000
+TNS   : -21.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CONT800:I1|ov'
+Slack : -1.000
+TNS   : -10.000
+
+------------------------------------------------------------

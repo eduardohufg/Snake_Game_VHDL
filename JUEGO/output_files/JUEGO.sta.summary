@@ -1,0 +1,233 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CONTADOR20BITS:I1|overflow'
+Slack : -138.833
+TNS   : -13781.287
+
+Type  : Slow 1200mV 85C Model Setup 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -4.396
+TNS   : -110.898
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_CONTROLLER:I3|DIVFREQ2:I0|FFD:I0|q'
+Slack : -2.348
+TNS   : -30.785
+
+Type  : Slow 1200mV 85C Model Setup 'clk_1'
+Slack : -1.849
+TNS   : -28.954
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : -0.983
+TNS   : -6.461
+
+Type  : Slow 1200mV 85C Model Hold 'CONTADOR20BITS:I1|overflow'
+Slack : 0.324
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_CONTROLLER:I3|DIVFREQ2:I0|FFD:I0|q'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_1'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DIVFREQ2:I0|FFD:I0|q'
+Slack : 0.657
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CONTADOR20BITS:I1|overflow'
+Slack : -2.338
+TNS   : -5830.317
+
+Type  : Slow 1200mV 85C Model Recovery 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : -1.672
+TNS   : -16.720
+
+Type  : Slow 1200mV 85C Model Removal 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : 1.683
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CONTADOR20BITS:I1|overflow'
+Slack : 2.318
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_1'
+Slack : -3.000
+TNS   : -35.269
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CONTADOR20BITS:I1|overflow'
+Slack : -1.403
+TNS   : -4359.121
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.403
+TNS   : -53.314
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_CONTROLLER:I3|DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.403
+TNS   : -29.463
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : -1.403
+TNS   : -14.030
+
+Type  : Slow 1200mV 0C Model Setup 'CONTADOR20BITS:I1|overflow'
+Slack : -126.224
+TNS   : -12583.047
+
+Type  : Slow 1200mV 0C Model Setup 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -3.927
+TNS   : -97.859
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_CONTROLLER:I3|DIVFREQ2:I0|FFD:I0|q'
+Slack : -2.117
+TNS   : -26.554
+
+Type  : Slow 1200mV 0C Model Setup 'clk_1'
+Slack : -1.663
+TNS   : -24.045
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : -0.799
+TNS   : -5.051
+
+Type  : Slow 1200mV 0C Model Hold 'CONTADOR20BITS:I1|overflow'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_CONTROLLER:I3|DIVFREQ2:I0|FFD:I0|q'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_1'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DIVFREQ2:I0|FFD:I0|q'
+Slack : 0.614
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CONTADOR20BITS:I1|overflow'
+Slack : -2.029
+TNS   : -4997.731
+
+Type  : Slow 1200mV 0C Model Recovery 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : -1.454
+TNS   : -14.540
+
+Type  : Slow 1200mV 0C Model Removal 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : 1.536
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CONTADOR20BITS:I1|overflow'
+Slack : 2.094
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_1'
+Slack : -3.000
+TNS   : -35.269
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CONTADOR20BITS:I1|overflow'
+Slack : -1.403
+TNS   : -4359.121
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.403
+TNS   : -53.314
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_CONTROLLER:I3|DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.403
+TNS   : -29.463
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : -1.403
+TNS   : -14.030
+
+Type  : Fast 1200mV 0C Model Setup 'CONTADOR20BITS:I1|overflow'
+Slack : -57.350
+TNS   : -5183.874
+
+Type  : Fast 1200mV 0C Model Setup 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.124
+TNS   : -23.388
+
+Type  : Fast 1200mV 0C Model Setup 'clk_1'
+Slack : -0.470
+TNS   : -1.024
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_CONTROLLER:I3|DIVFREQ2:I0|FFD:I0|q'
+Slack : -0.404
+TNS   : -2.812
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CONTADOR20BITS:I1|overflow'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_CONTROLLER:I3|DIVFREQ2:I0|FFD:I0|q'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_1'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DIVFREQ2:I0|FFD:I0|q'
+Slack : 0.251
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CONTADOR20BITS:I1|overflow'
+Slack : -0.686
+TNS   : -1514.974
+
+Type  : Fast 1200mV 0C Model Recovery 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : -0.148
+TNS   : -1.480
+
+Type  : Fast 1200mV 0C Model Removal 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : 0.727
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CONTADOR20BITS:I1|overflow'
+Slack : 1.177
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_1'
+Slack : -3.000
+TNS   : -26.720
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CONTADOR20BITS:I1|overflow'
+Slack : -1.000
+TNS   : -3107.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.000
+TNS   : -38.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_CONTROLLER:I3|DIVFREQ2:I0|FFD:I0|q'
+Slack : -1.000
+TNS   : -21.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_CONTROLLER:I3|CONT800:I1|ov'
+Slack : -1.000
+TNS   : -10.000
+
+------------------------------------------------------------
